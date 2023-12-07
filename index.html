@@ -1,68 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- personal css -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Agency Website</title>
+    <!-- Add any additional styles or scripts here -->
 </head>
-<body>
-  About
-  Services
-  Projects
-  Contact
+<body class="font-sans bg-gray-100">
 
-  We are creatives
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4">
+        <!-- Add your logo and navigation links here -->
+    </nav>
 
-  Transform your brand
+    <!-- Middle Container with 2 Column 3 Row Layout -->
+    <section class="container mx-auto my-8">  
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <!-- Repeat this block for each item in your layout -->
+            <div class="mb-8">
+                <!-- Image and text content for the grid item -->
+            </div>
+            <!-- Repeat the block for other grid items -->
+        </div>
+    </section>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+    <!-- Customer Testimonies Section -->
+    <section class="bg-gray-200 py-8">
+        <div class="container mx-auto">
+            <!-- Testimonies content, perhaps a carousel or individual cards -->
+        </div>
+    </section>
 
-  Learn more
+    <!-- Bottom Container -->
+    <section class="container mx-auto my-8">
+        <!-- Content for the bottom container -->
+    </section>
 
-  Stand out to the right audience
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4">
+        <!-- Footer content, links, copyright, etc. -->
+    </footer>
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
